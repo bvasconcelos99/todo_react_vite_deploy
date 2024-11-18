@@ -90,7 +90,7 @@ function App() {
         <h2>Insira sua próxima tarefa:</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-control">
-            <label htmlFor="title">O que você vai fazer?</label>
+            <label htmlFor="title">O que você vai fazer hoje?</label>
             <input
               type="text"
               name="title"
